@@ -288,8 +288,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\grow.cs" />
-    <Compile Include="Assets\Scripts\player.cs" />
+    <Compile Include="Assets\Scripts\growlogic.cs" />
+    <Compile Include="Assets\Scripts\playercontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
