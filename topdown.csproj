@@ -310,6 +310,7 @@
     <Compile Include="Assets\Scripts\player\aim.cs" />
     <Compile Include="Assets\Scripts\player\growlogic.cs" />
     <Compile Include="Assets\Scripts\player\playercontrol.cs" />
+    <Compile Include="Assets\Scripts\player\shoot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
