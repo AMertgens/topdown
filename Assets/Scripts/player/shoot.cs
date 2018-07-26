@@ -32,8 +32,13 @@ public class shoot : MonoBehaviour {
         Rigidbody2D bPrefab = Instantiate(bulletPrefab, new Vector3(transform.position.x + xValue, transform.position.y + yValue, transform.position.z), transform.rotation) as Rigidbody2D;
         bPrefab.transform.localScale = transform.localScale / 10;
         bPrefab.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletSpeed);
-        Debug.Log(transform.right);
+        //Debug.Log(transform.right);
         coolDown = Time.time + attackSpeed;
+        
+        
+      
     }
+   
+   
 }
 

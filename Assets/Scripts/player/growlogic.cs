@@ -13,6 +13,7 @@ public class growlogic : MonoBehaviour
     public float growfactor = 1f;
     private float framecounter = 0.0f;
     public bool isinRange = false;
+    public float shrinkrate = 0.5f;
 
 
     // Use this for initialization
@@ -38,7 +39,7 @@ public class growlogic : MonoBehaviour
             if (framecounter % 100 == 0)
             {
                 // if player is within radius of badguy, his growthfactor increases by 1 each time interval
-                Debug.Log("growfactor: " + growfactor + "framecounter: " + framecounter);
+                //Debug.Log("growfactor: " + growfactor + "framecounter: " + framecounter);
                 growfactor += 1;
             }
             framecounter += 1;
@@ -54,7 +55,7 @@ public class growlogic : MonoBehaviour
             framecounter = 0;
             if (transform.localScale[0] > 1)
             {
-                transform.localScale -= new Vector3(0.01f, 0.01f, 0.01f);
+                transform.localScale -= new Vector3(shrinkrate, shrinkrate, shrinkrate);
 
             }
         }

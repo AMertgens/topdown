@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playercontrol : MonoBehaviour {
-	private float speed;
+	public float speed = 20;
     
     // Use this for initialization
     void Start () {
-		speed = 10;
+		
         
 
     }
