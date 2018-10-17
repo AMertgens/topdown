@@ -309,7 +309,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\badguy\healthsystem.cs" />
     <Compile Include="Assets\Scripts\bullet\bullet.cs" />
+    <Compile Include="Assets\Scripts\bullet\bulletDestroy.cs" />
     <Compile Include="Assets\Scripts\player\aim.cs" />
+    <Compile Include="Assets\Scripts\player\bulletFire.cs" />
     <Compile Include="Assets\Scripts\player\growlogic.cs" />
     <Compile Include="Assets\Scripts\player\playercontrol.cs" />
     <Compile Include="Assets\Scripts\player\shoot.cs" />
